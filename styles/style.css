@@ -10,15 +10,36 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .header {
     width: 1100px;
     height: 293px;
-    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-black {
+    width: 148px;
+    height: 105px;
+    top: 92px;
+    left: 478px;
 }
 
 .menu {
-    width: 391.4786376953125;
-    height: 22.00001335144043;
-    opacity: 1;
+    width: 391.48px;
+    height: 22px;
     top: 133px;
-    left: 50px;
+    left: 50px;   
+}
+
+li {
+    display: inline-block; 
+}
+
+.address {
+    width: 240px;
+    height: 98px;
+    top: 95px;
+    left: 810px;
+    border-width: 1px;
+
 }
 
 .cover {
