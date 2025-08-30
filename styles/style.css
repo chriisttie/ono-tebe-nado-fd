@@ -10,36 +10,48 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .header {
     width: 1100px;
     height: 293px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-}
-
-.logo-black {
-    width: 148px;
-    height: 105px;
-    top: 92px;
-    left: 478px;
+    justify-items: center;
+    margin: 0 auto; /*примечания по шапке: расстояние до меню, гэп между пунктами, ШРИФТ*/
 }
 
 .menu {
-    width: 391.48px;
-    height: 22px;
-    top: 133px;
-    left: 50px;   
+    text-align: right;
+    justify-self: start;
+    padding-left: 50px;
 }
 
-li {
-    display: inline-block; 
+.menu .li_menu:first-child {
+    text-decoration: none;
+    list-style: none;
+}
+
+.ul_menu {
+    display: flex;
+    gap: 30px;
+    list-style-type: circle; 
+    width: 100%;
+}
+
+.li_menu {
+    white-space: nowrap;
+
 }
 
 .address {
     width: 240px;
     height: 98px;
-    top: 95px;
-    left: 810px;
     border-width: 1px;
+    justify-self: end;
+    text-align: left;
+    padding-right: 50px; /*тут закончилась шапка и начинается мэин*/
+}
 
+.logo-black {
+    width: 148px;
+    height: 105px;
 }
 
 .cover {
@@ -49,4 +61,30 @@ li {
     width: 1100px;
     height: 757px;
     top: 293px;
+}
+
+.ono_tebe_nado {
+    color: white;
+}
+
+.description {
+    color: white;
+    font-family: "Raleway";
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+button {
+    width: 256px;
+    height: 51px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;
+    font-family: "Raleway";
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+
 }
