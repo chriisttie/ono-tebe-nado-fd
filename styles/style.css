@@ -63,6 +63,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     background-position: center;
     width: 1100px;
     height: 757px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .ono_tebe_nado {
@@ -71,39 +74,35 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-family: "Raleway";
     font-weight: bold;
     font-size: 100px;
-    width: 1000px;
-    height: 385px;
+    padding-top: 165px;
+    letter-spacing: 25px;
     
 }
 .ono {
 display: block;
-width: 286px;
 height: 115px;
-
+padding-left: 50px;
 }
 
 .tebe {
 display: block;
-width: 339px;
 height: 115px;
-
+text-align: center;
+padding-left: 50px;
 }
 
 .nado {
 display: block;
-width: 387px;
 height: 115px;
-
+text-align: right;
+padding-right: 50px;
 }
 
 .description {
-    display: flex;
-    height: ;
-    width: 1000px;
-    align-items: end;
     padding-bottom: 50px;
-     padding-left: 50px;
-    padding-right: 50px;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
 }
 
 .description_p {
