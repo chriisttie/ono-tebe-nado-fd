@@ -75,25 +75,22 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-weight: bold;
     font-size: 100px;
     padding-top: 165px;
-    letter-spacing: 25px;
+    letter-spacing: 24px;
     
 }
 .ono {
 display: block;
-height: 115px;
 padding-left: 50px;
 }
 
 .tebe {
 display: block;
-height: 115px;
 text-align: center;
 padding-left: 50px;
 }
 
 .nado {
 display: block;
-height: 115px;
 text-align: right;
 padding-right: 50px;
 }
@@ -111,7 +108,7 @@ padding-right: 50px;
     font-weight: normal;
     font-size: 22px;
     text-transform: uppercase;
-    word-spacing: 15px;
+    word-spacing: 14px;
 }
 
 button {
