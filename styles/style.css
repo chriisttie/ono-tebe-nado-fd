@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .address {
-    max-width: 240px;
+    max-width: 260px;
     height: 98px;
     justify-self: end;
     text-align: left;
@@ -49,6 +49,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-family: "raleway";
     font-weight: normal;
     font-style: normal;
+    padding-right: 50px;
 }
 
 .logo-black {
@@ -78,7 +79,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-weight: bold;
     font-size: 100px;
     padding-top: 165px;
-    letter-spacing: 27px;
+    letter-spacing: 28px;
     
 }
 .ono {
@@ -90,12 +91,14 @@ padding-left: 50px;
 display: block;
 text-align: center;
 padding-left: 50px;
+padding-top: 10px;
 }
 
 .nado {
 display: block;
 text-align: right;
 padding-right: 50px;
+padding-top: 10px;
 }
 
 .description {
@@ -111,7 +114,7 @@ padding-right: 50px;
     font-weight: normal;
     font-size: 22px;
     text-transform: uppercase;
-    word-spacing: 17px;
+    word-spacing: 18px;
 }
 
 button {
