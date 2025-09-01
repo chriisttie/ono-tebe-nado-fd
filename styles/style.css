@@ -43,11 +43,12 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .address {
     max-width: 240px;
     height: 98px;
-    border-width: 1px;
     justify-self: end;
     text-align: left;
-    padding-right: 50px; 
     font-size: 18px;
+    font-family: "raleway";
+    font-weight: normal;
+    font-style: normal;
 }
 
 .logo-black {
@@ -77,7 +78,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-weight: bold;
     font-size: 100px;
     padding-top: 165px;
-    letter-spacing: 26px;
+    letter-spacing: 27px;
     
 }
 .ono {
@@ -110,7 +111,7 @@ padding-right: 50px;
     font-weight: normal;
     font-size: 22px;
     text-transform: uppercase;
-    word-spacing: 16px;
+    word-spacing: 17px;
 }
 
 button {
