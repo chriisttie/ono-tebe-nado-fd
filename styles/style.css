@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    margin: 0 auto; /*примечания по шапке: расстояние до меню, гэп между пунктами, ШРИФТ*/
+    margin: 0 auto; 
 }
 
 .menu {
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-family: "Raleway";
     font-weight: normal;
     font-style: normal;
-    padding-right: 35px;
+    padding-right: 50px;
     line-height: 24.3px;
 }
 
@@ -137,7 +137,7 @@ button {
     text-transform: uppercase;
     font-weight: bold;
     padding-left: 64px;
-    padding-bottom: 20px;
+    padding-bottom: 27px;
 }
 
 .lots {
@@ -145,7 +145,7 @@ button {
     height: 723px;
     display: flex;
     flex-direction: column;
-    margin-top: 178px;
+    margin-top: 187px;
 }
 
 .lots_title {
