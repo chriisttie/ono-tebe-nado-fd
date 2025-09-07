@@ -37,7 +37,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .li_menu {
     white-space: nowrap;
-
 }
 
 .address {
@@ -283,4 +282,65 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
+}                                           /*тут начинается подвал*/
+
+.footer {
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "adress menu socials";
+    height: 180px;
 }
+
+.footer_menu {
+    grid-area: menu;
+    display: flex;
+    font-size: 18px;
+    font-family: "Raleway";
+    font-weight: normal;
+    font-style: normal;
+}
+
+.footer_adress {
+    grid-area: adress;
+    max-width: 270px;
+    height: 98px;
+    justify-self: center;
+    text-align: left;
+    font-size: 18px;
+    font-family: "Raleway";
+    font-weight: normal;
+    font-style: normal;
+    line-height: 24.3px;
+}
+
+.socials {
+    grid-area: socials;
+   height: 180px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ul_footer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+    list-style-type: none; 
+    width: 100%;
+}
+
+.youtube {
+    height: 48px;
+    width: 48px;
+}
+.vk {
+    height: 48px;
+    width: 48px;
+}
+
+.pinterest {
+    height: 48px;
+    width: 48px;
+}
+
