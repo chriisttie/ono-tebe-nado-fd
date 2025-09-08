@@ -30,9 +30,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .ul_menu {
     display: flex;
-    gap: 30px;
+    gap: 33px;
     list-style-type: circle; 
-    width: 100%;
 }
 
 .li_menu {
@@ -50,6 +49,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-style: normal;
     padding-right: 50px;
     line-height: 24.3px;
+    margin-right: 18px;
 }
 
 .logo-black {
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-weight: bold;
     font-size: 100px;
     padding-top: 165px;
-    letter-spacing: 28px;
+    letter-spacing: 30px;
     
 }
 .ono {
@@ -90,15 +90,15 @@ padding-left: 50px;
 .tebe {
 display: block;
 text-align: center;
-padding-left: 40px;
+padding-left: 30px;
 padding-top: 16px;
 }
 
 .nado {
 display: block;
 text-align: right;
-padding-right: 30px;
-padding-top: 16px;
+padding-right: 20px;
+padding-top: 17px;
 }
 
 .description {
@@ -114,7 +114,8 @@ padding-top: 16px;
     font-weight: normal;
     font-size: 22px;
     text-transform: uppercase;
-    word-spacing: 18px;
+    word-spacing: 18.1px;
+    width: 637px;
 }
 
 button {
@@ -145,7 +146,7 @@ button {
     height: 723px;
     display: flex;
     flex-direction: column;
-    margin-top: 187px;
+    margin-top: 180px;
 }
 
 .lots_title {
@@ -224,7 +225,7 @@ button {
 
 .more {
     padding-left: 64px;
-    padding-top: 20px;
+    padding-top: 30px;
     font-family: "Raleway";
     font-size: 20px;
 }
@@ -237,13 +238,16 @@ button {
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .about {
-    height: 595px;
+    height: 560px;
+    width: 1052px;
+    margin-right: 24px;
     display: grid;
     grid-template-columns: 383px auto;
-    margin-top: 150px;
+    margin-top: 156px;
 }
 
 .div-left {
@@ -267,29 +271,37 @@ button {
     width: 148px;
 }
 
+.div-right {
+    height: 449px;
+    width: 693px;
+}
+
 .p_about {
     font-family: "Raleway";
     font-size: 20px;
     font-weight: normal;
     line-height: 24px;
-    width: 690px;
-    display: flex;
-    flex-direction: column;
-    gap: 38px;
+    height: 312px;
 }
 
-.div-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-}                                           /*тут начинается подвал*/
+.p_about-1 {
+    width: 688px;
+    height: 120px;
+}
+
+.p_about-2 {
+    margin-top: 24px;
+    width: 693px;
+    height: 168px;
+}                                    /*тут начинается подвал*/
 
 .footer {
     margin-top: 180px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "adress menu socials";
-    height: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .footer_menu {
@@ -305,8 +317,6 @@ button {
     grid-area: adress;
     max-width: 270px;
     height: 98px;
-    justify-self: center;
-    text-align: left;
     font-size: 18px;
     font-family: "Raleway";
     font-weight: normal;
@@ -320,6 +330,8 @@ button {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    gap: 48px;
+    padding-left: 93px;
 }
 
 .ul_footer {
